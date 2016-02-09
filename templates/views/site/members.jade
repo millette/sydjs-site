@@ -5,8 +5,8 @@ block flash-messages
 
 block intro
 	.page-intro: .container
-		h1.page-title Members
-		p.lead The people who make up SydJS. 
+		h1.page-title #{__('Members')}
+		p.lead #{__('The people who make up SydJS.')}
 			if !user
 				a(href='/join').js-auth-trigger Add your tile
 
@@ -56,7 +56,7 @@ block content
 						+member(member)
 		
 		if !organisers.length && !speakers.length && !community.length
-			h3.text-muted There are no members yet.
+			h3.text-muted #{__('There are no members yet.')}
 
 block js
 	script(src='/js/lib/bootstrap/transition.js')
