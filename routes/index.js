@@ -7,6 +7,7 @@ var middleware = require('./middleware');
 var graphqlHTTP = require('express-graphql');
 var graphQLSchema = require('../graphql/basicSchema').default;
 var relaySchema = require('../graphql/relaySchema').default;
+var i18n = require('i18n');
 
 var importRoutes = keystone.importer(__dirname);
 
@@ -40,6 +41,16 @@ var routes = {
 
 // Bind Routes
 exports = module.exports = function (app) {
+
+  i18n.configure({
+      locales:['en', 'fr'],
+      defaultLocale: 'fr',
+      // whether to write new locale information to disk - defaults to true
+      updateFiles: true,
+      directory: __dirname + '/locales'
+  });
+
+  app.use(i18n.init);
 
 	// Browserification
 	app.get('/js/packages.js', browserify(clientConfig.packages, {
