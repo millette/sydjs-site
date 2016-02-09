@@ -44,7 +44,7 @@ exports = module.exports = function (app) {
 
   i18n.configure({
       locales:['en', 'fr'],
-      defaultLocale: 'fr',
+      //defaultLocale: 'fr',
       // whether to write new locale information to disk - defaults to true
       updateFiles: true,
       directory: __dirname + '/locales'
