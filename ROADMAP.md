@@ -5,13 +5,19 @@
 ### Site alpha (voir ci-bas)
 * Basé sur SydJS/Keystone 0.4.0-alpha avec MongoDB 3.2
     * Enlever meetups, talks rsvp et updater le frontpage
+    * Enlever links, link comments et link categories (tags)
     * Enlever showbag
-    * Organisation: entreprise, user-group ou ..?
-    * User: many organisations
+    * Organisation: type parmi entreprise, user-group ou ..?
+    * User:
+        * many organisations
+        * mentoring par défaut (texte spécifie la mutualité)
+        * déplacer le champ "Organizer" de User vers le le lien User-Organisation
     * Réactiver les commentaires (mais voir [#55](https://github.com/JedWatson/sydjs-site/issues/55) d'abord)
+    * Vérifier les sharing widgets (facebook, twitter, g+) pour stopper le tracking
+    * Vérifier google analytics pour stopper le tracking
 * Login par github (SydJS)
 * Association au compte Twitter (SydJS)
-* Partage de token github pour accélérer le scrapping
+* Invitation à partager un token github pour accélérer le scrapping
 * Fil aggrégé twitter/github/blog
 * Blogue/news du site (SydJS, rss à faire)
 * Sitemap (visible et machine)
