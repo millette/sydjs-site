@@ -1,5 +1,7 @@
 # Fork RoLLodeQc de SydJS
 
+On utilise [i18n-node](https://github.com/mashpie/i18n-node) pour un site bilingue.
+
 Configurer dans le fichier .env:
 
 ```
