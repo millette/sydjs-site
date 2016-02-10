@@ -6,7 +6,6 @@
 * Basé sur SydJS/Keystone 0.4.0-alpha avec MongoDB 3.2
     * Enlever meetups, talks rsvp et updater le frontpage
     * Enlever showbag
-
 * Login par github (SydJS)
 * Association au compte Twitter (SydJS)
 * Partage de token github pour accélérer le scrapping
