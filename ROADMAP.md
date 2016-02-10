@@ -6,6 +6,9 @@
 * Basé sur SydJS/Keystone 0.4.0-alpha avec MongoDB 3.2
     * Enlever meetups, talks rsvp et updater le frontpage
     * Enlever showbag
+    * Organisation: entreprise, user-group ou ..?
+    * User: many organisations
+    * Réactiver les commentaires (mais voir [#55](https://github.com/JedWatson/sydjs-site/issues/55) d'abord)
 * Login par github (SydJS)
 * Association au compte Twitter (SydJS)
 * Partage de token github pour accélérer le scrapping
