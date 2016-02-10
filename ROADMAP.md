@@ -4,7 +4,9 @@
 
 ### Site alpha (voir ci-bas)
 * Basé sur SydJS/Keystone 0.4.0-alpha avec MongoDB 3.2
-* Enlevé meetups, talks rsvp et updater le frontpage
+    * Enlever meetups, talks rsvp et updater le frontpage
+    * Enlever showbag
+
 * Login par github (SydJS)
 * Association au compte Twitter (SydJS)
 * Partage de token github pour accélérer le scrapping
